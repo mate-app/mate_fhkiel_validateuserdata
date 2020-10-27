@@ -3,18 +3,18 @@
 </h1>
 
 <p align="center">
-  <a href="https://codecov.io/gh/TobiasPrt/mate_validateuserdata">
-    <img src="https://codecov.io/gh/TobiasPrt/mate_validateuserdata/branch/master/graph/badge.svg" />
+  <a href="https://codecov.io/gh/TobiasPrt/mate_fhkiel_validateuserdata">
+    <img src="https://codecov.io/gh/TobiasPrt/mate_fhkiel_validateuserdata/branch/master/graph/badge.svg" />
   </a>
-  <a href="https://github.com/TobiasPrt/mate_validateuserdata_/issues/">
-    <img src="https://img.shields.io/github/issues/TobiasPrt/mate_validateuserdata"
+  <a href="https://github.com/TobiasPrt/mate_fhkiel_validateuserdata_/issues/">
+    <img src="https://img.shields.io/github/issues/TobiasPrt/mate_fhkiel_validateuserdata"
          alt="Issues">
   </a>
-  <a href="https://github.com/TobiasPrt/mate_validateuserdata_/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/TobiasPrt/mate_validateuserdata"
+  <a href="https://github.com/TobiasPrt/mate_fhkiel_validateuserdata_/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/TobiasPrt/mate_fhkiel_validateuserdata"
          alt="Contributors">
   </a>
-  <a href="https://github.com/TobiasPrt/mate_validateuserdata_/LICENSE.md">
+  <a href="https://github.com/TobiasPrt/mate_fhkiel_validateuserdata_/LICENSE.md">
     <img src="https://img.shields.io/badge/License-MIT-blue.svg"
          alt="License">
   </a>
@@ -35,7 +35,7 @@
 * sends Post-Request to Website of FH Kiel, grabs cookies and then verifies the legitimacy via parsing
 
 ## How To Use
-To clone and run this application, you'll need [Git](https://git-scm.com) and [PYTHON 3.8.5+](https://www.python.org) installed on your computer. Then from your command line run:
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Python 3.8.5+](https://www.python.org) installed on your computer. Then from your command line run:
 
 ```bash
 # Clone this repository
@@ -51,7 +51,7 @@ $ python3 -m venv env
 $ pip install -r requirements.txt
 
 # Use functions-framework for python to test and debug locally
-$ functions-framework --target=validate_user_date
+$ functions-framework --target=validate_user_data
 ```
 
 The function is now available on [http://localhost:8080](http://localhost:8080).
