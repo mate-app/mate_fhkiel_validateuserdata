@@ -1,7 +1,6 @@
 import unittest
 from requests import Session
 from unittest.mock import Mock, patch
-
 from validateuserdata.validate_user_data import *
 
 

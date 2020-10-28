@@ -55,7 +55,7 @@ $ source env/bin/activate
 $ pip install -r requirements.txt
 
 # Make sure everything is working
-$ pytest
+$ py.test
 
 # Use functions-framework for python to test and debug locally
 $ functions-framework --target=validate_user_data
@@ -67,10 +67,10 @@ The function is now available on [http://localhost:8080](http://localhost:8080).
 
 This function specifically uses the following open source packages:
 
-- [Functions Framwork Python](https://github.com/GoogleCloudPlatform/functions-framework-python)
+- [Functions Framework for Python](https://github.com/GoogleCloudPlatform/functions-framework-python)
 - [Requests](https://github.com/psf/requests)
-- [lxml](https://github.com/lxml/lxml)
 - [pytest-cov](https://github.com/pytest-dev/pytest-cov)
+- [Flask](https://github.com/pallets/flask)
 
 ## License
 
