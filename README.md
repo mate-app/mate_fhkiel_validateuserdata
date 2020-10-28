@@ -33,6 +33,7 @@
 ## Key Features
 
 * sends Post-Request to Website of FH Kiel, grabs cookies and then verifies the legitimacy via parsing
+* fully tested and good documented code
 
 ## How To Use
 To clone and run this application, you'll need [Git](https://git-scm.com) and [Python 3.8.5+](https://www.python.org) installed on your computer. Then from your command line run:
@@ -47,8 +48,14 @@ $ cd mate_fhkiel_validateuserdata
 # Create virtual environment
 $ python3 -m venv env
 
+# Start virtual environment
+$ source env/bin/activate
+
 # Install dependencies from requirements
 $ pip install -r requirements.txt
+
+# Make sure everything is working
+$ pytest
 
 # Use functions-framework for python to test and debug locally
 $ functions-framework --target=validate_user_data

@@ -5,7 +5,7 @@ import flask
 def validate_user_data(request: flask.Request) -> str:
     """
     Checks if incoming credentials are valid at the FH Kiel.
-
+ 
     Parameters
     ----------
     request : flask.Request
@@ -18,12 +18,13 @@ def validate_user_data(request: flask.Request) -> str:
     """
     email = get_post_parameter(request, 'email')
     password = get_post_parameter(request, 'password')
-    if(!(email and password)):
+    if(not(email and password)):
         return 'false'
     payload = set_payload(email, password)
     if 'Cookie' in post_request(payload):
         return 'true'
     return 'false'
+
 
 def get_post_parameter(request: flask.Request, key: str) -> str or bool:
     """
@@ -68,7 +69,7 @@ def post_request(payload: dict) -> dict:
     """
     session = requests.Session()
     url = "https://www.fh-kiel.de/index.php?id=3690&L=186%25%2F"
-    return session.post(url, data=PAYLOAD).request.headers
+    return session.post(url, data=payload).request.headers
 
 
 def set_payload(email: str, password: str) -> dict:
