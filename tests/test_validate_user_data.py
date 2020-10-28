@@ -1,6 +1,6 @@
 from unittest.mock import Mock
 
-from main import main
+from ..lib.validateuserdata import validate_user_data
 
 def test_validate_user_data():
     email = 'email'
@@ -9,4 +9,4 @@ def test_validate_user_data():
     req = Mock(get_json=Mock(return_value=data), args=data)
 
     # Call tested function
-    assert main.validate_user_data(req) == 'false'
+    assert validate_user_data(req) == 'false'
