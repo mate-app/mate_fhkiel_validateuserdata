@@ -36,7 +36,8 @@
 * sends POST request to the website of FH Kiel
   * grabs cookies and then verifies the legitimacy
 * fully tested and documented code
-* CI for automatic coverage report and deployment (WIP) to Google Cloud Functions
+* CI for automatic coverage report 
+* CD for deployment on push to master to dev-project and on new tag to production-project
 
 ## How To Use
 To clone and run this application, you'll need [Git](https://git-scm.com) and [Python](https://www.python.org) installed on your computer. It is tested with Python 3.8. Then from your command line run:
