@@ -3,4 +3,4 @@ steps:
   entrypoint: /bin/sh
   args: [-c, 'pip install -r requirements.txt', '&&', 'pytest']
 - name: 'gcr.io/cloud-builders/gcloud'
-  args: ['functions', 'deploy', 'fhkiel_validateuserdata', '--trigger-http', '--runtime', 'python38', '--entry-point', 'validate_user_data']
+  args: ['functions', 'deploy', 'fhkiel_validateuserdata', '--trigger-http', '--runtime', 'python38', '--entry-point', 'validate_user_data', '--allow-unauthenticated']
