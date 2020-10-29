@@ -1,10 +1,6 @@
 steps:
 - name: 'docker.io/library/python:3.8'
   entrypoint: /bin/sh
-  # Run pip install and pytest in the same build step
-  # (pip packages won't be preserved in future steps!)
   args: [-c, 'pip install -r requirements.txt', '&&', 'pytest']
-  dir: '/'
 - name: 'gcr.io/cloud-builders/gcloud'
   args: ['functions', 'deploy', 'fhkiel_validateuserdata', '--trigger-http', '--runtime', 'python38', '--entry-point', 'validate_user_data']
-  dir: '/'
