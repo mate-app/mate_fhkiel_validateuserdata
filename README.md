@@ -32,11 +32,14 @@
 
 ## Key Features
 
-* sends Post-Request to Website of FH Kiel, grabs cookies and then verifies the legitimacy via parsing
-* fully tested and good documented code
+* verifies FH Kiel students for the mate app
+* sends POST request to the website of FH Kiel
+  * grabs cookies and then verifies the legitimacy
+* fully tested and documented code
+* CI for automatic coverage report and deployment (WIP) to Google Cloud Functions
 
 ## How To Use
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Python 3.8.5+](https://www.python.org) installed on your computer. Then from your command line run:
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Python](https://www.python.org) installed on your computer. It is tested with Python 3.8. Then from your command line run:
 
 ```bash
 # Clone this repository
