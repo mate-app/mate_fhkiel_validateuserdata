@@ -3,21 +3,21 @@
 </h1>
 
 <p align="center">
-  <a href="https://github.com/TobiasPrt/mate_fhkiel_validateuserdata/releases/tag/v1.0.0">
+  <a href="https://github.com/mate-app/mate_fhkiel_validateuserdata/releases/tag/v1.0.0">
     <img alt="GitHub tag (latest by date)" src="https://img.shields.io/github/v/tag/TobiasPrt/mate_fhkiel_validateuserdata">
   </a>
-  <a href="https://codecov.io/gh/TobiasPrt/mate_fhkiel_validateuserdata">
-    <img src="https://codecov.io/gh/TobiasPrt/mate_fhkiel_validateuserdata/branch/master/graph/badge.svg" />
+  <a href="https://codecov.io/gh/mate-app/mate_fhkiel_validateuserdata">
+    <img src="https://codecov.io/gh/mate-app/mate_fhkiel_validateuserdata/branch/master/graph/badge.svg" />
   </a>
-  <a href="https://github.com/TobiasPrt/mate_fhkiel_validateuserdata_/issues/">
-    <img src="https://img.shields.io/github/issues/TobiasPrt/mate_fhkiel_validateuserdata"
+  <a href="https://github.com/mate-app/mate_fhkiel_validateuserdata_/issues/">
+    <img src="https://img.shields.io/github/issues/mate-app/mate_fhkiel_validateuserdata"
          alt="Issues">
   </a>
-  <a href="https://github.com/TobiasPrt/mate_fhkiel_validateuserdata_/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/TobiasPrt/mate_fhkiel_validateuserdata"
+  <a href="https://github.com/mate-app/mate_fhkiel_validateuserdata_/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/mate-app/mate_fhkiel_validateuserdata"
          alt="Contributors">
   </a>
-  <a href="https://github.com/TobiasPrt/mate_fhkiel_validateuserdata_/LICENSE.md">
+  <a href="https://github.com/mate-app/mate_fhkiel_validateuserdata_/LICENSE.md">
     <img src="https://img.shields.io/badge/License-MIT-blue.svg"
          alt="License">
   </a>
