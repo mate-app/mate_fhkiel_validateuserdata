@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/mate-app/mate_fhkiel_validateuserdata/releases/tag/v1.0.0">
-    <img alt="GitHub tag (latest by date)" src="https://img.shields.io/github/v/tag/TobiasPrt/mate_fhkiel_validateuserdata?label=version">
+    <img alt="GitHub tag (latest by date)" src="https://img.shields.io/github/v/tag/mate-app/mate_fhkiel_validateuserdata?label=version">
   </a>
   <a href="https://codecov.io/gh/mate-app/mate_fhkiel_validateuserdata">
     <img src="https://codecov.io/gh/mate-app/mate_fhkiel_validateuserdata/branch/master/graph/badge.svg" />
