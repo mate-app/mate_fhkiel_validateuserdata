@@ -13,7 +13,7 @@
     <img src="https://img.shields.io/github/issues/mate-app/mate_fhkiel_validateuserdata"
          alt="Issues">
   </a>
-  <a href="https://github.com/mate-app/mate_fhkiel_validateuserdata_/graphs/contributors">
+  <a href="https://github.com/mate-app/mate_fhkiel_validateuserdata/graphs/contributors">
     <img src="https://img.shields.io/github/contributors/mate-app/mate_fhkiel_validateuserdata"
          alt="Contributors">
   </a>
